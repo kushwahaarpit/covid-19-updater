@@ -11,7 +11,7 @@ def update():
      
      while True:
          toast = ToastNotifier()
-         toast.show_toast("Covid-19 Updates",text,duration=20)
-         time.sleep(60)
+         toast.show_toast("Covid-19 Updates",text,duration=20)  #you can incerease or decrease the display time of notification
+         time.sleep(60)  #you can incerese the time interval of display of notification 
 
 update()         
